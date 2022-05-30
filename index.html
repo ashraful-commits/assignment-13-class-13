@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- counter project -->
+<div class="container bg-info ">
+<div class="container text-center">
+    <h1 class="text-white py-5"> Counter</h1><br>
+    <h1 id="data" class="text-white border  p-4 d-inline  ">0</h1>
+        <hr class="text-white my-5">
+
+    <button class="btn btn-lg btn-primary mx-1 " id="add"> Click</button>
+    <button class="btn btn-lg btn-warning mx-1 " id="back">Back</button>
+    <button class="btn btn-lg btn-success mx-1 " id="clear">Clear</button>
+    <button class="btn btn-lg btn- mx-1 bg-danger " id="sound">Sound</button>
+</div>
+
+
+
+<!-- button audio  -->
+
+<div class="container text-center my-5">
+    <audio id="audio"  src="Music/a1.wav"></audio>
+    <audio id="audio2"  src="Music/a2.wav"></audio>
+    <audio id="audio1" src="Music/a4.wav"></audio>
+    <audio id="audio3" controls  src="Music/a3.mp3"></audio>
+    
+</div>
+</div>
+
+<!-- stopwatch -->
+
+
+<div class="container bg-info p-5 text-center ">
+    <h1 id="output" class="text-center"></h1>
+<div class="col-md-4 btn-group ">
+    <button id="btn1" class="btn btn-primary ">Start</button>
+    <button id="btn2" class="btn btn-danger ">Stop</button>
+    <button id="btn3"class="btn btn-warning ">Reset</button>
+</div></div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
